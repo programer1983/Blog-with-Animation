@@ -120,3 +120,17 @@ h2 {
      position: absolute;
      right: 0;
  }
+
+ .img {
+     overflow: hidden;
+     transition: 0.5s;
+ }
+
+ .img img {
+    transition: 0.5s;
+}
+
+.img img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

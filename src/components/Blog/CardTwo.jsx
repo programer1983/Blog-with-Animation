@@ -9,7 +9,7 @@ const CardTwo = () => {
           {sdata.map((value) => {
               return (
                   <div className="box" key={value.id}>
-                      <div className="img">
+                      <div className="img img2">
                           <img src={value.cover} alt="" />
                       </div>
                       <div className="text">
