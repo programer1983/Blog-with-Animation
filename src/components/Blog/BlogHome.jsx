@@ -1,3 +1,4 @@
+import Slide from "../Slide/Slide"
 
 
 const BlogHome = () => {
@@ -45,7 +46,9 @@ const BlogHome = () => {
           )
         })}
       </div>
-      <div className="right-content"></div>
+      <div className="right-content">
+        <Slide />
+      </div>
     </section>
   )
 }
