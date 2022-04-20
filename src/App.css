@@ -80,6 +80,7 @@ h2 {
     line-height: 70px;
     color: #000;
     background-color: #fff;
+    margin-bottom: 50px;
 }
 
 .logo h1 {
@@ -89,7 +90,7 @@ h2 {
 
 .left-content .text {
     width: 45%;
-    margin-top: 15px;
+    margin-top: 50px;
 }
 
 .left-content .text h1 {

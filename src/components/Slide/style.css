@@ -20,3 +20,16 @@
 .slick-dots li button::after {
     font-size: 40px;
 }
+
+
+.cardTwo.slide .box:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.cardTwo.slide .img {
+    padding: 10px;
+}
+
+.cardTwo.slide .img img:hover {
+    transform: none;
+}
