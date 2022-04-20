@@ -1,6 +1,5 @@
 import Slide from "../Slide/Slide"
 
-
 const BlogHome = () => {
   const data = [
     {
