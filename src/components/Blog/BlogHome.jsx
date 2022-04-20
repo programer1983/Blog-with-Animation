@@ -1,4 +1,5 @@
 import Slide from "../Slide/Slide"
+import Card from "./Card"
 
 const BlogHome = () => {
   const data = [
@@ -47,6 +48,7 @@ const BlogHome = () => {
       </div>
       <div className="right-content">
         <Slide />
+        <Card />
       </div>
     </section>
   )
