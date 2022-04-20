@@ -1,3 +1,4 @@
+import Footer from "../footer/Footer"
 import Slide from "../Slide/Slide"
 import Card from "./Card"
 
@@ -49,6 +50,7 @@ const BlogHome = () => {
       <div className="right-content">
         <Slide />
         <Card />
+        <Footer />
       </div>
     </section>
   )
