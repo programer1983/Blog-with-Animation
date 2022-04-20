@@ -134,3 +134,15 @@ h2 {
     transform: scale(1.1);
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .left-content,
+    .right-content {
+        width: 100%;
+        position: relative;
+    }
+}
